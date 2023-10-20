@@ -50,7 +50,7 @@ print *, "Hello,"//achar(10)//achar(9)//"world!"//new_line("a")//&
 
 ## 使用
 
-仅支持 [FPM][1] 构建，其他构建工具请自行复制源码，代码在 `ifort/ifx/gfortran` 下测试通过。
+仅支持 [Fpm][1] 构建，其他构建工具请自行复制源码，代码在 `ifort/ifx/gfortran` 下测试通过。
 
 在 Fpm 项目中使用 `escape-f`，将以下内容添加到 `fpm.toml` 中：
 
@@ -95,5 +95,11 @@ ford FORD-doc.md
 start build/ford/index.html     # Windows 打开网页
 ```
 
+## 相关字符串函数库
+
+- [Fortty](https://github.com/awvwgk/fortty): 在Fortran中创建丰富多彩的终端应用程序。
+- [Fortran-regex](https://github.com/perazz/fortran-regex): tiny-regex-c正则表达式库的Fortran端口。
+- [M_strings](https://github.com/urbanjost/M_strings): Fortran字符串操作。
+
 [1]: https://github.com/fortran-lang/fpm
-[2]: 
+[2]: https://github.com/Fortran-FOSS-Programmers/ford

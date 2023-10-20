@@ -46,7 +46,7 @@ Thus, it is convenient for us to use the C escape character style to write the w
 
 ## Usage
 
-Only support [FPM][1] build, other build tools please copy the source code, the code in `ifort/ifx/gfortran` test passed.
+Only support [fpm][1] build, other build tools please copy the source code, the code in `ifort/ifx/gfortran` test passed.
 
 Using `escape-f` in the fpm project, add the following to `fpm.toml`:
 
@@ -82,4 +82,20 @@ end program example_escape
 !> I'm Fortran!
 ```
 
+## Document
+
+Generate and open the [FORD][2] document:
+
+```sh
+ford FORD-doc.md
+start build/ford/index.html     # Windows Open the web page
+```
+
+## Related string libraries
+
+- [Fortty](https://github.com/awvwgk/fortty): Create colorful terminal applications in Fortran.
+- [Fortran-regex](https://github.com/perazz/fortran-regex): Fortran port of the tiny-regex-c library.
+- [M_strings](https://github.com/urbanjost/M_strings): Fortran string manipulations.
+
 [1]: https://github.com/fortran-lang/fpm
+[2]: https://github.com/Fortran-FOSS-Programmers/ford
