@@ -42,7 +42,7 @@ Thus, it is convenient for us to use the C escape character style to write the w
 
 > **Warning**
 >
-> `\0` has no significant meaning in Fortran, and 'escape-f' removes it from the string.
+> `\0` has no significant meaning in Fortran, and `escape-f`` removes it from the string.
 
 ## Usage
 
