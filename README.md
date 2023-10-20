@@ -25,20 +25,20 @@ Thus, it is convenient for us to use the C escape character style to write the w
 
 | Escape character | Meaning | Implementation |
 | :--: | :--: | :--: |
-| `\a` | ring | ✔️ |
-| `\b` | backspace | ✔️ |
-| `\f` | Change to | ✔️ |
-| `\n` | Line break | ✔️ |
-| `\r` | enter | ✔️ |
-| `\t` | the horizontal TAB | ✔️ |
-| `\v` | the vertical TAB | ✔️ |
-| `\0` | the empty character | ✔️ |
-| `\?` | the question mark | ✔️ |
-| `\'` | the quotation marks | ✔️ |
-| `\"` | double quotes | ✔️ |
-| `\\` | backslash | ✔️ |
-| `\ddd` | the character as the octal number ddd | ❌ |
-| `\xhh` | the characters as the hexadecimal number hh | ❌ |
+| `\a` | Alarm or Beep | ✔️ |
+| `\b` | Backspace	 | ✔️ |
+| `\f` | Form Feed | ✔️ |
+| `\n` | New Line | ✔️ |
+| `\r` | Carriage Return | ✔️ |
+| `\t` | Horizontal Tab | ✔️ |
+| `\v` | Vertical Tab | ✔️ |
+| `\0` | NULL | ✔️ |
+| `\?` | Question Mark | ✔️ |
+| `\'` | Single Quote | ✔️ |
+| `\"` | Double Quote | ✔️ |
+| `\\` | Backlash | ✔️ |
+| `\ddd` | Octal Number | ❌ |
+| `\xhh` | Hexadecimal Number | ❌ |
 
 > **Warning**
 >
