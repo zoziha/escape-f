@@ -19,7 +19,7 @@ print *, "Hello,"//achar(10)//achar(9)//"world!"//new_line("a")//&
 ```
 
 Thus, it is convenient for us to use the C escape character style to write the whole string in series in some scenarios, to achieve common functions such as line feed and carriage return, which are generally used to output strings to the screen or text files.
-`escape-f` enables `OpenMP` parallelism and uses built-in functions, so in a large number of string conversions, you can also get high performance, though I have not tested.
+`escape-f` enables `OpenMP` parallelism and uses built-in functions, so in a large number of string conversions, you can also get high performance.
 
 ## Supported C escape characters
 
@@ -42,7 +42,7 @@ Thus, it is convenient for us to use the C escape character style to write the w
 
 > **Warning**
 >
-> `\0` has no significant meaning in Fortran, and `escape-f`` removes it from the string.
+> `\0` has no significant meaning in Fortran, and `escape-f` removes it from the string.
 
 ## Usage
 
